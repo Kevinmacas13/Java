@@ -1,21 +1,19 @@
 package com.krakedev;
-
 public class TestPersona {
-
 	public static void main(String[] args) {
-		Persona p;
-
-        Persona p2;
-        p2= new Persona();
-        p2.nombre="Vicky";
-		p = new Persona();
+		Persona p; //Declaro variable persona
+        Persona p2;//Declaro variable persona
+        p = new Persona(); //Instancio objeto persona
+        p2= new Persona(); // Instanacio objeto persona
+        //Modificar atributos
         p.nombre = "Kevin";
         p.edad = 20;
-        p.edad=15;
-		System.out.println("Mi persona"+ p.nombre);
-        System.out.println("Eres mi vida "+p.nombre);
-
-       
+        p2.nombre="Vicky";
+        p2.edad=15;
+        //Acceder atributos
+		System.out.println("Primera persona"+ p.nombre + " edad: "+ p.edad);
+        System.out.println("Segunda persona "+ p2.nombre + " edad: "+ p2.edad);
+        
 	}
 
 }
