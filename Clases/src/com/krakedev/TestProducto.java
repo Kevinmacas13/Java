@@ -3,8 +3,6 @@ package com.krakedev;
 public class TestProducto {
 
 
-
-
     public static void main(String[] args) {
         Producto productoA;
         Producto productoB;
@@ -12,7 +10,6 @@ public class TestProducto {
         productoA = new Producto();
         productoB = new Producto();
         productoC = new Producto();
-
         productoA.nombre="Protecto Solar";
         productoA.precio=35;
         productoA.stockActual=40;
