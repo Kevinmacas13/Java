@@ -1,5 +1,7 @@
-package com.krakedev;
+package com.krakedev.test;
 
+
+import com.krakedev.Mensajeria;
 
 public class testMensajeria {
     public static void main(String[] args) {

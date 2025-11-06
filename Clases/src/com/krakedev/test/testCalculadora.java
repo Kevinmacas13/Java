@@ -1,5 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
 
+import com.krakedev.Calculadora;
 public class testCalculadora {
     public static void main(String[] args) {
         int suma;

@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Auto;
 
 public class TestAuto {
     public static void main(String[] args) {
