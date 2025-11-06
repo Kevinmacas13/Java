@@ -4,10 +4,10 @@ public class TestRectangulo {
     public static void main(String[] args) {
         Rectangulo rectangulo = new Rectangulo();
         Rectangulo rectangulo2 = new Rectangulo();
-        rectangulo.base = 3;
-        rectangulo.altura = 5;
-        rectangulo2.base = 4;
-        rectangulo2.altura = 2;
+        rectangulo.setBase(3);
+        rectangulo.setAltura(5);
+        rectangulo2.setBase(4);
+        rectangulo2.setAltura(2);
         int area;
         int area2;
         double perimetro;

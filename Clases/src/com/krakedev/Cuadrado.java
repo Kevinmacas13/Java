@@ -1,7 +1,16 @@
 package com.krakedev;
 
 public class Cuadrado {
-    int lado;
+     private int lado;
+
+    public int getLado() {
+        return lado;
+    }
+
+    public void setLado(int lado) {
+        this.lado = lado;
+    }
+
     public double  calcularArea(){
        double area;
        area= lado*lado;

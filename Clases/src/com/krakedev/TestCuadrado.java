@@ -5,9 +5,9 @@ public class TestCuadrado {
         Cuadrado cuadrado = new Cuadrado();
         Cuadrado cuadrado2 = new Cuadrado();
         Cuadrado cuadrado3 = new Cuadrado();
-        cuadrado.lado=5;
-        cuadrado2.lado=6;
-        cuadrado3.lado=7;
+        cuadrado.setLado(5);
+        cuadrado2.setLado(6);
+        cuadrado3.setLado(7);
         double areaCuadrado= cuadrado.calcularArea();
         double areaCuadrado2 = cuadrado2.calcularArea();
         double areaCuadrado3 = cuadrado3.calcularArea();
