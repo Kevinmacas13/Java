@@ -10,7 +10,7 @@ public class Cuadrado {
 
     public double  calcularPerimetro(){
         double area;
-        area= lado*lado;
+        area= 4*lado;
         return area;
     }
 
