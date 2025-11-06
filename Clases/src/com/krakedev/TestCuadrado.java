@@ -2,12 +2,10 @@ package com.krakedev;
 
 public class TestCuadrado {
     public static void main(String[] args) {
-        Cuadrado cuadrado = new Cuadrado();
-        Cuadrado cuadrado2 = new Cuadrado();
-        Cuadrado cuadrado3 = new Cuadrado();
-        cuadrado.setLado(5);
-        cuadrado2.setLado(6);
-        cuadrado3.setLado(7);
+        Cuadrado cuadrado = new Cuadrado(5);
+        Cuadrado cuadrado2 = new Cuadrado(6);
+        Cuadrado cuadrado3 = new Cuadrado(7);
+
         double areaCuadrado= cuadrado.calcularArea();
         double areaCuadrado2 = cuadrado2.calcularArea();
         double areaCuadrado3 = cuadrado3.calcularArea();

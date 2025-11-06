@@ -4,7 +4,9 @@ public class Persona {
     private String nombre;
     private int edad;
     private double estatura;
+   public Persona(){
 
+   }
     public String getNombre() {
         return nombre;
     }

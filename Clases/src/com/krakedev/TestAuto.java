@@ -4,14 +4,9 @@ public class TestAuto {
     public static void main(String[] args) {
         Auto auto1;
         Auto auto2;
-        auto1 = new Auto();
-        auto2 = new Auto();
-        auto1.setMarca("Toyota");
-        auto1.setAnio(2000);
-        auto1.setPrecio(4000);
-        auto2.setMarca("Chevrolet");
-        auto2.setAnio(2010);
-        auto2.setPrecio(8000);
+        auto1 = new Auto("Toyota", 2000,4000);
+        auto2 = new Auto("Chevrolet", 2010,8000);
+
         System.out.println("Mi primer vehículo: ");
         System.out.println("Marca: "+auto1.getMarca());
         System.out.println("Anio: "+auto1.getAnio());

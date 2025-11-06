@@ -7,18 +7,10 @@ public class TestProducto {
         Producto productoA;
         Producto productoB;
         Producto productoC;
-        productoA = new Producto();
-        productoB = new Producto();
-        productoC = new Producto();
-        productoA.setNombre("Protecto Solar");
-        productoA.setPrecio(35);
-        productoA.setStockActual(40);
-        productoB.setNombre("Pasta dental");
-        productoB.setPrecio(4);
-        productoB.setStockActual(26);
-        productoC.setNombre("Vitamina C");
-        productoC.setPrecio(3);
-        productoC.setStockActual(45);
+        productoA = new Producto("Protecto Solar","",35,40);
+        productoB = new Producto("Pasta dental","",4,26);
+        productoC = new Producto("Vitamina C","",3,45);
+
         System.out.println("Producto farmacia");
         System.out.println("Primer producto");
         System.out.println("Nombre: "+productoA.getNombre() );

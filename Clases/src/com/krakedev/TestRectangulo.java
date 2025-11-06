@@ -2,8 +2,8 @@ package com.krakedev;
 
 public class TestRectangulo {
     public static void main(String[] args) {
-        Rectangulo rectangulo = new Rectangulo();
-        Rectangulo rectangulo2 = new Rectangulo();
+        Rectangulo rectangulo = new Rectangulo(3,5);
+        Rectangulo rectangulo2 = new Rectangulo(4,2);
         rectangulo.setBase(3);
         rectangulo.setAltura(5);
         rectangulo2.setBase(4);
