@@ -1,10 +1,9 @@
 package com.krakedev;
 
-import java.security.MessageDigest;
 
-public class testMensajería {
+public class testMensajeria {
     public static void main(String[] args) {
-        Mensajería mensajeria= new Mensajería();
+        Mensajeria mensajeria= new Mensajeria ();
         mensajeria.saludar();
         mensajeria.saludarAmigo("Kevin");
         int mivariable=0;
