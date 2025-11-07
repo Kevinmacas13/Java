@@ -25,6 +25,18 @@ public class Celda {
     return codigo;
    }
 
+   public void setProducto(Producto producto) {
+    this.producto = producto;
+   }
+
+   public void setStock(int stock) {
+    this.stock = stock;
+   }
+
+   public void setCodigo(String codigo) {
+    this.codigo = codigo;
+   }
+
 
 
 
