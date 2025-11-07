@@ -1,0 +1,4 @@
+package com.cmc.directorio.entidades;
+
+public class AdminContactos {
+}
