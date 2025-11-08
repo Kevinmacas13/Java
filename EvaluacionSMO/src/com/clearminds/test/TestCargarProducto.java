@@ -10,7 +10,7 @@ public class TestCargarProducto {
 		
 		Producto producto=new Producto("KE34","Papitas",0.85);
 		maquina.cargarProducto(producto, "B1", 4);
-		
+	
 		maquina.mostrarProductos();
 	}
 }
