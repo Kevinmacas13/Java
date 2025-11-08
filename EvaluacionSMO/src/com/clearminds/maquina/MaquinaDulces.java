@@ -4,7 +4,6 @@ import com.clearminds.componentes.Celda;
 import com.clearminds.componentes.Producto;
 
 public class MaquinaDulces {
-
     private Celda celda1;
     private Celda celda2;
     private Celda celda3;
