@@ -7,7 +7,7 @@ public class TestContenidoCelda {
 
 	public static void main(String[] args) {
 		Celda celda=new Celda("A1");
-		Producto producto=new Producto("KE34","Papitas",0.85);
+		Producto producto=new Producto("Papitas","KE34",0.85);
 		celda.ingresarProducto(producto, 5);
 		
 		System.out.println("CELDA:"+celda.getCodigo());

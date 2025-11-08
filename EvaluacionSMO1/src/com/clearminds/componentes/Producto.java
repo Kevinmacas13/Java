@@ -6,7 +6,7 @@ private String Nombre;
 private double Precio;
 private String Codigo;
 
-public Producto( String codigo, String nombre,double precio) {
+public Producto(String nombre, String codigo, double precio) {
     Nombre = nombre;
     Precio = precio;
     Codigo = codigo;
