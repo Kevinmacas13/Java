@@ -10,21 +10,22 @@ public class Naipe {
 
 
     public Naipe() {
-        this.numerosPosibles = new ArrayList<Numero>() {{
-            add(new Numero("A", 11));
-            add(new Numero("2", 2));
-            add(new Numero("3", 3));
-            add(new Numero("4", 4));
-            add(new Numero("5", 5));
-            add(new Numero("6", 6));
-            add(new Numero("7", 7));
-            add(new Numero("8", 8));
-            add(new Numero("9", 9));
-            add(new Numero("10", 10));
-            add(new Numero("J", 10));
-            add(new Numero("Q", 10));
-            add(new Numero("K", 10));
-        }};
+        this.numerosPosibles = new ArrayList<Numero>();
+
+        this.numerosPosibles.add(new Numero("A", 11));
+        this.numerosPosibles.add(new Numero("2", 2));
+        this.numerosPosibles.add(new Numero("3", 3));
+        this.numerosPosibles.add(new Numero("4", 4));
+        this.numerosPosibles.add(new Numero("5", 5));
+        this.numerosPosibles.add(new Numero("6", 6));
+        this.numerosPosibles.add(new Numero("7", 7));
+        this.numerosPosibles.add(new Numero("8", 8));
+        this.numerosPosibles.add(new Numero("9", 9));
+        this.numerosPosibles.add(new Numero("10", 10));
+        this.numerosPosibles.add(new Numero("J", 10));
+        this.numerosPosibles.add(new Numero("Q", 10));
+        this.numerosPosibles.add(new Numero("K", 10));
+
 
         this.cartas = new ArrayList<Carta>();
         for (int i = 0; i < this.numerosPosibles.size(); i++) {
