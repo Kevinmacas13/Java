@@ -36,7 +36,28 @@ public class Naipe {
         }
 
     }
+  public  ArrayList<Carta> barajar() {
+      ArrayList<Carta> auxiliar = new ArrayList<>();
+      int numeroAleatorio;
+      Carta cartaAleatoria;
+      for (int i = 0; i <= 100; i++) {
+           numeroAleatorio= Random.obtenerPosicion();
+           cartaAleatoria = cartas.get(numeroAleatorio);
+          if(cartaAleatoria.getEstado().equals("N")){
+              cartaAleatoria.setEstado("C");
+              auxiliar.add(cartaAleatoria);
+          }
+      }
+      for(int i=0;i<cartas.size();i++){
+          if(!auxiliar.contains(cartas.get(i))){
+                cartas.get(i).setEstado("C");
+                auxiliar.add(cartas.get(i));
 
+          }
+      }
+
+      return auxiliar;
+  }
     public ArrayList<Carta> getCartas() {
         return cartas;
     }

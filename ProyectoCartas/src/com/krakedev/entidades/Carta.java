@@ -3,6 +3,7 @@ package com.krakedev.entidades;
 public class Carta {
     private Numero numero;
     private String palo;
+    private String estado="N";
 
     public Carta(Numero numero, String palo) {
         this.numero = numero;
@@ -26,5 +27,13 @@ public class Carta {
 
     public void setPalo(String palo) {
         this.palo = palo;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 }
