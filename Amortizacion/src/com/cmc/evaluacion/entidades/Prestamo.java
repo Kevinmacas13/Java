@@ -14,6 +14,10 @@ public class Prestamo {
         this.interes = interes;
         this.plazo = plazo;
     }
+    public void mostrarPrestamo(){
+        System.out.println("[monto="+monto+", interes="+interes+", plazo="+plazo+"]");
+
+    }
 
     public double getMonto() {
         return monto;
