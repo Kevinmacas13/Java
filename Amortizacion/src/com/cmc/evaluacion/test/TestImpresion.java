@@ -1,4 +1,4 @@
-package com.cmc.evualuacion.test;
+package com.cmc.evaluacion.test;
 
 import com.cmc.evaluacion.entidades.Cuota;
 
