@@ -1,13 +1,12 @@
 package com.krakedev.entidades;
 
 public class Palos {
-    private String corazonRojo;
-    private String corazonNegro;
-    private String diamante;
-    private String trebol;
+    private String corazonRojo="CR";
+    private String corazonNegro="CN";
+    private String diamante="DI";
+    private String trebol="TR";
 
     public Palos(){
-
     }
 
 

@@ -1,10 +1,10 @@
 package com.krakedev.entidades;
 
 public class Carta {
-    private int numero;
+    private Numero numero;
     private String palo;
 
-    public Carta(int numero, String palo) {
+    public Carta(Numero numero, String palo) {
         this.numero = numero;
         this.palo = palo;
     }
@@ -12,11 +12,11 @@ public class Carta {
         System.out.println(this.numero + "-" + this.palo);
     }
 
-    public int getNumero() {
+    public Numero getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
+    public void setNumero(Numero numero) {
         this.numero = numero;
     }
 
