@@ -84,6 +84,12 @@ public class Persona {
 	public void setHora_nacimiento(Date hora_nacimiento) {
 		this.hora_nacimiento = hora_nacimiento;
 	}
+	@Override
+	public String toString() {
+		return "Persona [cedula=" + cedula + ", nombre=" + nombre + ", apellido=" + apellido + ", estatura=" + estatura
+				+ ", estado_civil=" + estado_civil + ", fecha_nacimiento=" + fecha_nacimiento + ", hora_nacimiento="
+				+ hora_nacimiento + ", cantidadAhorrada=" + cantidadAhorrada + ", numero_hijos=" + numero_hijos + "]";
+	}
 
 
 	
